@@ -1,0 +1,179 @@
+@media(max-width:600px){
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+    }
+    #logo{
+        width: 100px;
+        margin-left: 12px;
+    }
+    #chk{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .myicon{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        color: white;
+        opacity: 1;
+        cursor: pointer;
+    }
+    nav{
+        flex-direction: column;
+        position: relative;
+        border-bottom: 20px solid;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 15px;
+        position: absolute;
+        top: -500px;
+        right: 25px;
+        transition: all 0.5s;
+        width: 300px;
+    }
+    nav ul li{
+        padding: 19px;
+    }
+    #chk:checked ~ ul{
+        top: 65px;
+        background-color: black;
+    }
+
+/* banner */
+#banner-section{
+    width: 100%;
+}
+.banner-content{
+    flex-direction: column;
+}
+.banner-data,.banner-img{
+    width: 100%;
+}
+.banner-data{
+    margin-bottom: -35px;
+}
+.banner-data h1{
+    font-size: 45px;
+    padding-top: 10px;
+    line-height: 60px;
+    font-weight: 900;
+}
+.banner-data span{
+    font-size: 27px;
+    padding-top: 25px;
+    line-height: 52px;
+
+}
+.banner-data p{
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+.banner-img{
+    width: 100%;
+}
+.banner-img img{
+    margin-top: 50px;
+    width: 100%;
+}
+/* banner end */
+/* box-section */
+#box-section{
+    position: relative;
+}
+.box-content{
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    position: absolute;
+    top: 1120px;
+    left: 40px;
+    right: 40px;
+}
+.box{
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+   }
+/* box-section end */
+/* about-section */
+#about-section{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 25px;
+}
+.about-content{
+    width: 70%;
+    padding: 90px 0px 20px 65px;
+
+}
+.about-h2{
+    width: 80%;
+    margin-top: 650px;
+    margin-left: 50px;
+}
+hr{
+    width: 100%;
+    margin-left: 2%;
+}
+ /* about-section end */
+ /* gallery-section */
+ .testimonial h1{ 
+    margin: 5% 5% 5% 10%;
+    width: 80%;
+ }
+ #gallery-section .container a{
+    margin-left: 40%;
+ }
+/* gallery-section end */
+/* about-section start */
+#about-us .container{
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
+}
+/* about-section end */
+/* footer start */
+footer .container{
+    padding: 0;
+}
+.row1{
+    flex-direction: column;
+}
+.row1-ul{
+    padding-left: 0;
+}
+.contact{
+    flex-direction: column;
+}
+.container1{
+    flex-direction: column;
+}
+.icon{
+    padding-left: 20px;
+
+}
+.form{
+    flex-direction: column;
+    width: 100%;
+}
+.button-post .inp-email{
+    width: 100%;
+    float: left;
+}
+.button-post .sub-button{
+    width: 100%;
+    
+}
+.copyright{
+    width: 100%;
+}
+}
